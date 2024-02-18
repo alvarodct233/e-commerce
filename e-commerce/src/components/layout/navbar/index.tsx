@@ -21,7 +21,7 @@ const Navbar = () => {
             <p className="text-sm font-medium">
               {/* Welcome back, <em>{userName ? userName : 'User not defined'}</em> */}
             </p>
-          <button className="text-sm font-medium bg-orange-500 hover:bg-orange-600 text-white py-2 px-4 rounded">Login</button>
+          <button className="text-sm font-medium bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Login</button>
             <Link to="/" className="text-sm font-medium hover:underline underline-offset-4">
               Home
             </Link>
