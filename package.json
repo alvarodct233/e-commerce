@@ -1,0 +1,31 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattmartinez2/e-commerce.git"
+  },
+  "author": "Alvaro del cacho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattmartinez2/e-commerce/issues"
+  },
+  "homepage": "https://github.com/mattmartinez2/e-commerce#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "babel-loader": "^9.1.3",
+    "tailwindcss": "^3.4.1"
+  }
+}

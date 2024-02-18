@@ -1,0 +1,188 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Estructura básica y flexbox */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.min-h {
+  min-height: 100vh;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.space-y-2 {
+  gap: 2rem;
+}
+
+.space-y-1 {
+  gap: 1rem;
+}
+
+.space-x-4 {
+  gap: 1rem;
+}
+
+/* Estilos de navegación y bordes */
+.border-b {
+  border-bottom: 1px solid #ddd; /* Ajustar el color según el diseño */
+}
+
+.border-t {
+  border-top: 1px solid #ddd;
+}
+
+.border {
+  border: 1px solid #ddd;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+/* Estilos de texto y fuentes */
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.hover\:underline {
+  text-decoration: underline;
+}
+
+.underline-offset-4 {
+  text-underline-offset: 4px;
+}
+
+.text-gray-500 {
+  color: #6b7280;
+}
+
+.dark\:text-gray-400 {
+  color: #9ca3af;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+}
+
+/* Estilos específicos de secciones y elementos */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.px-4,
+.py-6,
+.md\:px-6 {
+  padding: 0.5rem;
+}
+
+.md\:py-24,
+.lg\:py-32 {
+  padding: 6rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.items-start {
+  align-items: start;
+}
+
+.lg\:grid-cols-\[1fr_400px\],
+.xl\:grid-cols-\[1fr_500px\],
+.lg\:grid-cols-\[1fr_300px\],
+.xl\:grid-cols-\[1fr_400px\] {
+  grid-template-columns: 1fr 400px; /* Ajustar según el breakpoint */
+}
+
+.gap-6,
+.lg\:gap-12 {
+  gap: 1.5rem;
+}
+
+.aspect-video {
+  aspect-ratio: 16 / 9;
+}
+
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
