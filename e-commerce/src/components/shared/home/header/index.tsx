@@ -10,7 +10,7 @@ const Header = () => {
     // const {userName} = useUserName();
 
   return (
-    <section className="w-full py-12 lg:py-32">
+    <section className="w-full py-12">
       <div className="container px-4 md:px-6">
         <div className="grid items-center gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_500px]">
           <div className=" space-y-2">

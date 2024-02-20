@@ -1,4 +1,6 @@
 import products from "../../../../assets/data";
+
+
 const ProductCard = () => {
   return (
     <>
@@ -20,6 +22,7 @@ const ProductCard = () => {
               {description && description.length > 30 ? description.substring(0, 30) + "..." : description}
             </p>
             <p className="text-sm font-semibold">{price}</p>
+            <button className="bc-blue-500">Add to Cart</button>
           </div>
         </div>
       ))}
