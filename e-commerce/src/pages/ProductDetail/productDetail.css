@@ -2,7 +2,7 @@ body {
     background-color: #c0dad4;
   }
   
-  .book-detail-section {
+  .products-detail-section {
     background-color: white;
     margin: 10%;
     display: flex;
@@ -14,7 +14,7 @@ body {
     border-radius: 10%;
   }
   
-  .book-detail-section .back {
+  .products-detail-section .back {
     font-size: 2rem;
     color: black;
   }
@@ -23,14 +23,14 @@ body {
     margin-left: 30%;
   }
   
-  .book-img {
+  .products-img {
     max-width: 200px;
     max-height: 300px;
     margin-left: 33%;
     width: 50%;
   }
   
-  .book-rating {
+  .products-rating {
     font-size: 2rem;
   }
   
@@ -39,7 +39,7 @@ body {
     gap: 2rem;
   }
   
-  .book-price {
+  .products-price {
     font-size: 1.8rem;
     font-weight: bold;
     color: black;

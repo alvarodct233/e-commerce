@@ -32,18 +32,18 @@ export function ProductDetail() {
 
   return (
     <>
-      <section className="book-detail-section">
+      <section className="products-detail-section">
         <BsArrowLeftCircle onClick={handleClick} className="back pointer" />
         <h2 className='product_name'>{showProduct.name}</h2>
         <img
-          className="book-img"
+          className="products-img"
           src={showProduct.image}
           alt={`${showProduct.name} image`}
         />
-        <span className="book-rating">
+        <span className="products-rating">
           {stars.map((s) => s)} <span> ({showProduct.rate})</span>
         </span>
-        <p className="book-price">{price} €</p>
+        <p className="products-price">{price} €</p>
         <section className="btn-section">
           {showProduct.options.map((option, i) => {
             const checked = i === 0 ? true : false;
@@ -67,7 +67,7 @@ export function ProductDetail() {
         </section>
 
         <h2>Description</h2>
-        <p className="book-synopsis">{showProduct.synopsis}</p>
+        <p className="products-synopsis">{showProduct.synopsis}</p>
       </section>
       <CartModal userOptions={userOptions} idProduct={showProduct.id} />
       <NavBar />

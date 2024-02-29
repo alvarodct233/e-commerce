@@ -41,7 +41,7 @@ export interface Option {
 }
 
 export enum Cover {
-  Ebook = 'Ebook',
+  Eproducts = 'Eproducts',
   Hardcover = 'Hardcover',
   Kindle = 'Kindle',
   Paperback = 'Paperback',

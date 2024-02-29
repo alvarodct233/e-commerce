@@ -42,7 +42,7 @@ export function ProductsSection(props: IProductsSectionProps): ReactNode {
   return (
     <section className="popular-items">
       {productsFiltered.length === 0 && (
-        <section className="no-books">
+        <section className="no-products">
           <IoSadOutline className="cart-icon" />
         </section>
       )}

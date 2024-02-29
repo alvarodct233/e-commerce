@@ -123,7 +123,7 @@ export function Checkout() {
                   <section className="product-details">
                     <p>
                       {product?.name}{' '}
-                      <span className="book-option">({coverOption})</span>
+                      <span className="products-option">({coverOption})</span>
                     </p>
                     <p>{e.quantity} items</p>
                     <p>{e.option * e.quantity} €</p>

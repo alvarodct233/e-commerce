@@ -35,11 +35,7 @@ export function ProductCard(props: IProductCardProps): ReactNode {
 
     if (!added) {
       user.user?.wishlist.push(parseInt(props.id));
-      toast.success('Successfully added!', {
-        icon: '🧡',
-        style: {
-          fontSize: '1.5rem',
-        },
+      toast.success(' added to the wishlist!', {
       });
       setIsWished(true);
     } else {
@@ -49,11 +45,7 @@ export function ProductCard(props: IProductCardProps): ReactNode {
       } else {
         user.user?.wishlist.splice(indexDelete, indexDelete);
       }
-      toast.error('This product is not on your wishlist more!', {
-        icon: '💔',
-        style: {
-          fontSize: '1.5rem',
-        },
+      toast.error('This product is not on your wishlist ', {
       });
       setIsWished(false);
     }

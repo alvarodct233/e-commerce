@@ -36,7 +36,7 @@ export async function getUsers(): Promise<User[]> {
 
 export async function getProducts(): Promise<Product[]> {
   try {
-    const response = await fetch('src/assets/data/books.json');
+    const response = await fetch('src/assets/data/products.json');
     const JSONResponse = await response.json();
     return JSONResponse;
   } catch (error) {
