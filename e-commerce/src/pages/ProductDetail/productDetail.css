@@ -1,0 +1,73 @@
+body {
+    background-color: #c0dad4;
+  }
+  
+  .book-detail-section {
+    background-color: white;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 3rem;
+    text-align: left;
+    border: 2px solid black;
+    border-radius: 10%;
+  }
+  
+  .book-detail-section .back {
+    font-size: 2rem;
+    color: black;
+  }
+  
+  .product_name {
+    margin-left: 30%;
+  }
+  
+  .book-img {
+    max-width: 200px;
+    max-height: 300px;
+    margin-left: 33%;
+    width: 50%;
+  }
+  
+  .book-rating {
+    font-size: 2rem;
+  }
+  
+  .btn-section {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .book-price {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .label-btn {
+    width: 20%;
+  }
+  
+  .option-btn {
+    position: relative;
+    padding: 0.25rem 0.5rem;
+    background-color: transparent;
+    border: 0.1rem solid #adb5bd;
+    text-align: center;
+  }
+  
+  .check-btn {
+    position: absolute;
+    right: 90%;
+    background-color: white;
+    color: #eeeed0;
+  }
+  
+  .radio-btn {
+    display: none;
+  }
+  
+  .radio-btn:checked + .option-btn {
+    border: 0.2rem solid black;
+  }

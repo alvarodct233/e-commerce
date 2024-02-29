@@ -1,0 +1,11 @@
+.popular-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 0 2rem;
+  }
+  
+  .popular-header a {
+    font-size: 1.4rem;
+  }
+  

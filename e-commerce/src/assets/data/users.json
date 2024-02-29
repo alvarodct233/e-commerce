@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Alvaro del cacho tena",
+    "password": "programador",
+    "username": "Alvarodct23",
+    "email": "alvarodct23@gmail.com",
+    "wishlist": [1, 2, 3]
+  },
+  {
+    "id": 2,
+    "name": "Juan Azula",
+    "password": "genio",
+    "username": "juanazula",
+    "email": "juanazula@gmail.com",
+    "wishlist": [4, 5, 6]
+  },
+  {
+    "id": 3,
+    "name": "Thomas Shelby",
+    "password": "pass111",
+    "username": "thomasshelby",
+    "email": "thomasshelby@gmail.com",
+    "wishlist": [7, 8, 9]
+  }
+]

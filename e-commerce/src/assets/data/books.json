@@ -1,0 +1,213 @@
+[
+    {
+      "id": "1",
+      "name": "Pure Glow Cleanser",
+      "image": "./src/assets/images/limpiador-facial.jpg",
+      "synopsis": "The Pure Glow facial cleanser is formulated with natural ingredients such as green tea extract and vitamin E, designed to deeply cleanse pores, remove excess oil and impurities, leaving the skin fresh and radiant. Its gentle formula is suitable for all skin types and perfect for incorporating into your daily skincare routine.",
+      "rate": 3.9,
+  
+      "options": [
+        {
+          "cover": "Large",
+          "price": 12.99
+        },
+        {
+          "cover": "Small",
+          "price": 9.5
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Revitalize Mist Toner",
+      "image": "./src/assets/images/tonico-facial.webp",
+      "synopsis": "The Revitalize Mist Toner is a refreshing blend of rose water and cucumber extract, designed to balance the skins pH levels, tighten pores, and provide a burst of hydration. Spritz it on after cleansing to prep your skin for serums and moisturizers or use it throughout the day to revive your complexion",
+      "rate": 2.5,
+  
+      "options": [
+        {
+          "cover": "Large",
+          "price": 9.99
+        },
+        {
+          "cover": "Small",
+          "price": 5.99
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Renewal Scrub Exfoliator",
+      "image": "src/assets/images/exfoliante-facial.webp",
+      "synopsis": "The Renewal Scrub Exfoliator features fine bamboo particles and fruit enzymes to gently slough away dead skin cells, revealing a smoother, more radiant complexion. This non-abrasive formula buffs away impurities and helps improve skin texture over time, leaving your skin feeling soft and rejuvenated.",
+      "rate": 1.7,
+  
+      "options": [
+        {
+          "cover": "Large",
+          "price": 10.99
+        },
+        {
+          "cover": "Small",
+          "price": 7.99
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Youthful Glow Serum",
+      "image": "src/assets/images/Serum-facial.webp",
+      "author": {
+        "name": "Jane Austen",
+        "description": "Jane Austen was an English novelist known for her six major novels.",
+        "image": "src/assets/authors/Jane_Austen.webp"
+      },
+      "synopsis": "The Youthful Glow Serum is a potent blend of hyaluronic acid, vitamin C, and peptides, formulated to target fine lines, wrinkles, and dullness. This lightweight serum absorbs quickly into the skin, delivering intense hydration and brightening benefits, while promoting a more youthful-looking complexion with continued use.",
+      "rate": 3.6,
+  
+      "options": [
+        {
+          "cover": "Large",
+          "price": 14.99
+        },
+        {
+          "cover": "Small",
+          "price": 7.5
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Hydra-Boost Moisturizer",
+      "image": "src/assets/images/Crema-hidratante-facial.jpg",
+      "author": {
+        "name": "J.R.R. Tolkien",
+        "description": "John Ronald Reuel Tolkien was an English writer, poet, and philologist.",
+        "image": "src/assets/authors/JRR_Tolkien.webp"
+      },
+      "synopsis": "The Hydra-Boost Moisturizer is a nourishing blend of shea butter, jojoba oil, and ceramides, designed to replenish moisture, strengthen the skins barrier, and provide long-lasting hydration. This rich yet non-greasy formula absorbs quickly, leaving your skin feeling supple, smooth, and hydrated throughout the day.",
+      "rate": 4,
+      "options": [
+        {
+          "cover": "Large",
+          "price": 19.99
+        },
+        {
+          "cover": "Small",
+          "price": 8.5
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "SunShield SPF 50",
+      "image": "src/assets/images/protector-solar.webp",
+      "author": {
+        "name": "J.D. Salinger",
+        "description": "Jerome David Salinger was an American writer known for his widely read novel.",
+        "image": "src/assets/authors/JD_Salinger.webp"
+      },
+      "synopsis": "SunShield SPF 50 offers broad-spectrum protection against UVA and UVB rays, enriched with antioxidants like vitamin E and green tea extract to defend against environmental stressors. This lightweight, non-comedogenic formula absorbs quickly without leaving a white cast, providing reliable sun protection while nourishing and soothing the skin",
+  
+      "rate": 3,
+      "options": [
+        {
+          "cover": "Large",
+          "price": 12.99
+        },
+        {
+          "cover": "Small",
+          "price": 6.99
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Purifying Clay Mask",
+      "image": "src/assets/images/Mascarilla-facial.webp",
+      "author": {
+        "name": "J.R.R. Tolkien",
+        "description": "John Ronald Reuel Tolkien was an English writer, poet, and philologist.",
+        "image": "src/assets/authors/JRR_Tolkien.webp"
+      },
+      "synopsis": "The Purifying Clay Mask is a detoxifying blend of kaolin clay and charcoal, formulated to deeply cleanse pores, absorb excess oil, and clarify the skin. Infused with botanical extracts like tea tree oil and aloe vera, this mask helps reduce the appearance of blemishes and leaves your skin feeling fresh, clear, and revitalized.",
+      "rate": 5,
+      "options": [
+        {
+          "cover": "Large",
+          "price": 12.99
+        },
+        {
+          "cover": "Small",
+          "price": 6.99
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Bright Eyes Firming Gel",
+      "image": "src/assets/images/Contorno-de-ojos.webp",
+      "author": {
+        "name": "Virginia Woolf",
+        "description": "Adeline Virginia Woolf was an English writer, considered one of the most important modernist 20th-century authors.",
+        "image": "src/assets/authors/Virginia_Woolf.webp"
+      },
+      "synopsis": "The Bright Eyes Firming Gel is a lightweight, hydrating formula enriched with caffeine and peptides to reduce the appearance of puffiness, dark circles, and fine lines around the eyes. With regular use, this soothing gel helps improve skin elasticity and brighten the delicate eye area, leaving you looking more refreshed and youthful",
+      "rate": 4.1,
+      "options": [
+        {
+          "cover": "Large",
+          "price": 10.99
+        },
+        {
+          "cover": "Small",
+          "price": 4.99
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Radiance Renewal Facial Oil",
+      "image": "src/assets/images/Aceite-facial.jpg",
+      "author": {
+        "name": "Paulo Coelho",
+        "description": "Paulo Coelho de Souza is a Brazilian lyricist and novelist.",
+        "image": "src/assets/authors/Paulo_Coelho.webp"
+      },
+      "synopsis": "The Radiance Renewal Facial Oil is a luxurious blend of nourishing oils such as argan, rosehip, and jojoba, designed to deeply hydrate, soften, and replenish the skins moisture barrier. This lightweight yet potent formula absorbs quickly, delivering essential fatty acids and antioxidants to promote a healthy, radiant complexion",
+      "rate": 4,
+      "options": [
+        {
+          "cover": "Large",
+          "price": 18.5
+        },
+        {
+          "cover": "Small",
+          "price": 8.99
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Gentle Micellar Water",
+      "image": "src/assets/images/Agua-micelar.webp",
+      "author": {
+        "name": "C.S. Lewis",
+        "description": "Clive Staples Lewis was a British writer and lay theologian.",
+        "image": "src/assets/authors/CS_Lewis.webp"
+      },
+      "synopsis": "The Gentle Micellar Water is a no-rinse cleanser and makeup remover infused with micelles, tiny cleansing molecules that effectively lift away dirt, oil, and impurities without stripping the skin. Enriched with soothing ingredients like chamomile and cucumber extract, this gentle formula leaves your skin feeling clean, refreshed, and hydrated.",
+      "rate": 4.6,
+      "options": [
+        {
+          "cover": "Large",
+          "price": 24.99
+        },
+        {
+          "cover": "Small",
+          "price": 12.99
+        }
+      ]
+    }
+  ]
+  

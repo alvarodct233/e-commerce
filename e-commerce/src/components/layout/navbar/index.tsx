@@ -1,40 +1,28 @@
-import { Link } from "react-router-dom";
-// import { MountainIcon } from "../../shared/icon/mountainIcon";
-// import { useContext } from "react"; userNameContext
-// import { useUserName } from "../../../context";
+import { ReactNode } from 'react';
+import './navBar.css';
+import {
+  IoHomeOutline,
+  IoCartOutline,
+  IoHeartOutline,
+  IoPersonOutline,
+} from 'react-icons/io5';
+import { NavLink } from 'react-router-dom';
 
-const Navbar = () => {
-
-  // const {userName} = useContext(userNameContext);
-//   const {userName} = useUserName();
-  
-  
+export function NavBar(): ReactNode {
   return (
-    <header className="border-b">
-      <div className="container px-4 md:px-6">
-        <nav className="flex items-center justify-between h-14">
-          <p className="flex items-center">
-            {/* <MountainIcon className="h-6 w-6" /> */}
-            <span className="">Skin Care products</span>
-          </p>
-          <div className="flex items-center space-x-4">
-            <p className="text-sm font-medium">
-              {/* Welcome back, <em>{userName ? userName : 'User not defined'}</em> */}
-            </p>
-            <Link to="/log" className="text-sm font-medium bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">
-              Log in
-            </Link>
-            <Link to="/" className="text-sm font-medium hover:underline underline-offset-4">
-              Home
-            </Link>
-            <Link to="/cart" className="text-sm font-medium hover:underline underline-offset-4">
-              Cart
-            </Link>
-          </div>
-        </nav>
-      </div>
-    </header>
+    <section className="nav">
+      <NavLink to="/home">
+        <IoHomeOutline stroke="#EEEED0" />
+      </NavLink>
+      <NavLink to="/cart">
+        <IoCartOutline stroke="#EEEED0" />
+      </NavLink>
+      <NavLink to="/wishlist">
+        <IoHeartOutline stroke="#EEEED0" />
+      </NavLink>
+      <NavLink to="/profile">
+        <IoPersonOutline stroke="#EEEED0" />
+      </NavLink>
+    </section>
   );
-};
-
-export default Navbar;
+}

@@ -8,6 +8,6 @@ import mascarillafacial from  "./Mascarilla-facial.webp";
 import contornodeojos from "./Contorno-de-ojos.webp";
 import aceitefacial from "./Aceite-facial.jpg";
 import aguamicelar from "./Agua-micelar.webp";
-import products from "../data";
+import products from "../data/discounts";
 
 export { limpiadorfacial, tonicofacial, exfoliantefacial, serumfacial, cremahidrantante, protectorsolar, mascarillafacial, contornodeojos, aceitefacial, aguamicelar, products}; 

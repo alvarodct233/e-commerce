@@ -1,0 +1,57 @@
+
+
+.login {
+  color: #162b5a;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.login-header {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem;
+}
+
+.login-account {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 50%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  border-radius: 5%;
+  border: 1px solid black;
+}
+
+img {
+  width: 15rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+a {
+  text-align: left;
+}
+
+a span {
+  color: black;
+}
+
+small {
+  font-size: small;
+}

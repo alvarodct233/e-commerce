@@ -1,0 +1,28 @@
+.home-header {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: white;
+  }
+  
+  .header-search-group {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .header-search-icon {
+    position: absolute;
+    left: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .header-search-input {
+    padding: 0 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    transition: 0.3s ease;
+  }
+  

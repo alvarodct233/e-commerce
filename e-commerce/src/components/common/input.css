@@ -1,0 +1,54 @@
+
+
+.group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 80%;
+  line-height: 3rem;
+  padding: 0 3rem;
+  border: none;
+  border-bottom: 2px solid #162b5a;
+  background-color: #eeeed0;
+  color: #162b5a;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+input::placeholder {
+  color: #adb5bd;
+}
+
+.input:focus {
+  outline: none;
+  border-bottom: 2px solid #f7bc13;
+}
+
+.input-img {
+  position: absolute;
+  top: 20%;
+  width: 1.5rem;
+  color: #162b5a;
+}
+
+.group small {
+  position: absolute;
+  bottom: -45%;
+  font-size: 1rem;
+  text-align: left;
+  color: #d90429;
+}
+
+.input.error {
+  border-bottom: 2px solid #d90429;
+}
+
+.input.success {
+  border-bottom: 2px solid #80b918;
+}
+
+.hide {
+  display: none;
+}

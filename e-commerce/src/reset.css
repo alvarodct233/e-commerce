@@ -1,0 +1,52 @@
+html{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* default html font-size browser value: 16px = 100% --> 1rem */
+  /* our custom value: 10px = 62.5% --> 1rem */
+  font-size: 62.5%;
+}
+
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+img,
+ul,
+li,
+form,
+label,
+article,
+footer,
+header,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
+  font-size: 1rem;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}
+  
+li {
+  list-style-type: none;
+}
+  

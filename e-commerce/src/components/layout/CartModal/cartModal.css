@@ -1,0 +1,61 @@
+.modal-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  
+    width: calc(100% - 4rem);
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+  
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+  
+    border-top: 2px solid black;
+  
+    padding: 1rem 2rem;
+    padding-bottom: 6rem;
+  
+    z-index: 1;
+  }
+  
+  .price-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .price {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .quantity-section {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .quantity-section p {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .btns-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+  }
+  
+  .wish-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    padding: 0.5rem 1rem;
+    font-size: 2.5rem;
+    border: none;
+    background-color: #c0dad4;
+    border-radius: 10px;
+  }
+  
