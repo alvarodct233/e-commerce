@@ -1,8 +1,8 @@
 .cart-card {
     display: flex;
     gap: 1rem;
-    border: 0.1rem solid #adb5bd;
-    border-radius: 10px;
+    border: 0.1rem solid black;
+    border-radius: 20px;
     padding: 1rem;
   }
   
@@ -15,11 +15,11 @@
   }
   
   .product-cover {
-    color: #adb5bd;
+    color: white;
   }
   
   .primary-color {
-    color: #e74800;
+    color: #c0dad4;
   }
   
   .product-info {

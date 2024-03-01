@@ -1,6 +1,9 @@
 import './productCard.css';
 import { Link } from 'react-router-dom';
-import { FaPlus, FaStar } from 'react-icons/fa';
+import {
+  IoCartOutline
+} from 'react-icons/io5';
+import { FaStar } from 'react-icons/fa';
 import { Button } from '../../../common/button';
 import { ReactNode, useState } from 'react';
 import { useAuthContext } from '../../../../context/AuthContext';
@@ -64,17 +67,9 @@ export function ProductCard(props: IProductCardProps): ReactNode {
         option: props.price,
       });
       toast.success('Successfully added!', {
-        icon: '👏',
-        style: {
-          fontSize: '1.5rem',
-        },
       });
     } else {
       toast.success('Successfully added!', {
-        icon: '👏',
-        style: {
-          fontSize: '1.5rem',
-        },
       });
       added.quantity = added.quantity + 1;
     }
@@ -90,7 +85,7 @@ export function ProductCard(props: IProductCardProps): ReactNode {
           <IoHeartOutline onClick={handleClickAddWish} stroke="#E74800" />
         )}
 
-        <FaPlus className="pointer" onClick={handleClickAdd} />
+        <IoCartOutline className="pointer" onClick={handleClickAdd} />
       </section>
       <Link to={`/${props.id}`}>
         <Toaster />

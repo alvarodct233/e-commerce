@@ -21,7 +21,7 @@
   
   .cart-icon {
     font-size: 10rem;
-    color: #e74800;
+    color: #c0dad4;
   }
   
   .cart-resume {
@@ -33,7 +33,7 @@
     background-color: #eeeed0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    border-top: 0.2rem solid #f7bc13;
+    border-top: 0.2rem solid #c0dad4;
   }
   
   .cart-resume ul {
@@ -57,12 +57,12 @@
   }
   
   .cart-resume li p:first-child {
-    color: #adb5bd;
+    color: white;
   }
   
   .back {
     font-size: 2rem;
-    color: #e74800;
+    color: #c0dad4;
     position: absolute;
     left: 3%;
     top: 2.5%;

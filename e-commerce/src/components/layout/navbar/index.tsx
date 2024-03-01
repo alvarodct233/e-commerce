@@ -26,3 +26,25 @@ export function NavBar(): ReactNode {
     </section>
   );
 }
+
+
+// import React from 'react'
+
+// export  function songDetails() {
+//   return (
+//     <section>
+//         <button>back</button>
+//         <div>
+//             <img src="" alt="" />
+//         </div>
+//         <p></p>
+//         <p></p>
+//         // flex
+//         <button>like/dislke</button>
+//         // barra de la cancion
+//         <button>last song</button>
+//         <button>play/pause</button>
+//         <button>next song</button>
+//     </section>
+//   )
+// }
